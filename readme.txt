@@ -1,19 +1,23 @@
 === Show IP address ===
 
 Contributors: Keithgriffiths76
-Donate link: https://www.keith-griffiths.com/developer
+Website link: https://www.keithgriffiths.co.uk/
 Description: A simple plugin to show your IP address information.
-Tags: lookup ip address, ip lookup, ip address, show ip address
+Tags: lookup ip address, ip lookup, ip address, show ip address, whats my ip address
 Licence: GPL2
 Requires at least: 3.6
-Tested up to: 4.5.2
-Stable tag: 1.3
+Tested up to: 6.1
+Stable tag: 1.6
+
 
 == Description ==
 
+
 #### Shows Your IP address 
 
-The idea is simple, give it a go, let me know what you think of this plugin. Any suggested updates I'll consider in each build.
+The idea is simple; this plugin will show a visitors IP address by placing a tag on the page you want the IP address to appear on. Give it a go, let me know what you think of this plugin. Any suggested updates I'll consider in each build.
+
+
 
 #### Great for:
 
@@ -21,19 +25,26 @@ The idea is simple, give it a go, let me know what you think of this plugin. Any
 * Posts
 * Pages
 
+
+
 #### Dashboard widget:
 
-* I have also included a link to a wiki page which covers information to do with IP addresses.
+* I have also included a content page which covers information to do with IP addresses and a place to keep you updated with future releases.
+
 
 #### This is a FREE plugin
 
-This simply shows the IP address of a visitor if they land on a specific page, you simply put your tag where you want your visitor to see there IP address, and that's it!
+This simply shows the IP address of a visitor if they land on a specific page, you simply put your tag where you want your visitor to see their IP address, that's it!
 
 This tag works on specific pages or widgets by simply adding in the tag [show_ip]. Your IP address also shows on your admin dashboard.
 
+
 > #### To show an IP address on any of your pages you could use:
 
+
 > What's my IP address: [show_ip]
+
+
 
 == Installation ==
 
@@ -44,48 +55,79 @@ This tag works on specific pages or widgets by simply adding in the tag [show_ip
 * Upload to your plugins folder via FTP
 * Activate
 
-If you want to install manually, download and unzip the show-ip-address.zip file and upload to the /wp-content/plugins/ directory. Then activate the plugin through the **Plugins** section in WordPress.
+
+If you want to install the plugin manually, download and unzip the show-ip-address.zip file and upload to the /wp-content/plugins/ directory. Then activate the plugin through the **Plugins** section in WordPress.
+
 
 Or
+
 
 * Install directly from the Wordpress plugin area
 * Activate
 
+
+
 You can find, download and install [Show IP address](http://wordpress.org/plugins/show-ip-address/) directly from the **Plugins** section in WordPress.
+
+
 
 #### Issues
 
-Make sure your host is running shell_exec() or you will have dashboard errors. Working on a work around for this.
+If you experiance CSS issues with a calss, make sure you dont have the following class in your CSS file, .box-ip or .img-show-ip they are two class files
+
+
 
 #### Widgets
 
+
+
 This simply shows an IP address on a specific page or widget by simply adding in this tag [show_ip].
+
+
 
 = Template Tags =
 
+
+
 [show_ip] use this tag on your pages to show your IP address.
-    
+
+
+
 == Screenshots ==
 
 1. Display short code
 2. Dashboard
 3. Short code in a widget
 
+
+
 == Frequently Asked Questions ==
+
+
 
 #### FAQs
 
 > Q). Will this work on any WordPress installation?
 
+>
+
 > A). This depends on your server configeration, and your PHP type. This has been tested with the latest version of PHP and Wordpress.
+
+
 
 #### Issues
 
 > Q). I have errors on my dashboard, it shows shell_exec() has been disabled for security reasons
 
+>
+
 > A). Make sure your host is running shell_exec() or you will have dashboard errors. I'm working on a work around for this.
 
+
+
 == Changelog ==
+
+
 
 = 1.0 =
 
@@ -102,3 +144,13 @@ This simply shows an IP address on a specific page or widget by simply adding in
 = 1.3 =
 
 * Removed the server uptime section as it was causing issues on specific hosting platforms. Removed the image from the mian dashboard.
+= 1.4 =
+
+* Updated content, source code and images.
+= 1.5 =
+
+* Updated contact URL, and performance compatibility tests up to version 5.7.2.
+
+= 1.6 =
+
+* Updated grammar, and performance compatibility tests up to version 6.1
